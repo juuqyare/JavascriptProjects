@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Project</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <div id="Contact">
+            <h1>Contact</h1>
+            <input type="text" placeholder="Search Contacts..." id="search">
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h2>Add Contact</h2>
+            <form id="form">
+                <input type="text" id="contactInput" placeholder="Add Contact...">
+                <input type="submit" value="Add" id="addBtn">
+            </form>
+        </div>
+
+        <h3>Contacts</h3>
+        <ul id="contact-group">
+            <li id="list-contact-group">Ahmed: 0617889966 <button class="delete">X</button></li>
+            <li id="list-contact-group">Ali: 0613567789<button class="delete">X</button></li>
+        </ul>
+    </main>
+    
+    <script src="contact.js"></script>
+</body>
+</html>
