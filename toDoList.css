@@ -1,71 +1,67 @@
 
-img{
-    min-width: 50px;
-    max-width: 80px;
-    min-height: 30px;
-    max-height: 70px;
-}
-
-#container{
-    display: flex;
-    justify-content: center;
-}
-
-#main{
-    display: flex;
-    justify-content:center;
-    margin-top: 5vh;
-}
-#inputTask{
-    width: 200px;
-    padding: 20px 50px;
-    border: none;
-    background: hsl(300, 66%, 50%);
-    border-radius: 30px;
-}
-#addBtn{
-    padding: 20px 30px;
-    border: none;
-    background: hsl(180, 90%, 50%);
-    border-radius: 30px;
-    font-weight: bold;
-    margin-left: -40px;
-}
-
-h3{
-    margin-left: 21%;
-    font-family: monospace, sans-serif;
-    font-weight: bold;
-}
-#tasks{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:start;
-    list-style: none;
-    font-family: monospace, sans-serif;
-    font-weight: bold;
-    position: relative;
-}
-
-#tasks li{
-    padding-top: 20px;
-    margin-left: 16%;
-}
-
-.delete{
-    border: 2px solid gray;
-    border-radius: 20px;
-    background: hsl(10, 100%, 50%);
-    font-weight: bold;
-    padding: 5px 15px;
-    position: absolute;
-    right: 22%;
-}
-
-
-
-
-
+        img{
+            min-width: 50px;
+            max-width: 80px;
+            min-height: 30px;
+            max-height: 70px;
+        }
+        
+        #header{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #main{
+            display: flex;
+            justify-content:center;
+            margin-top: 5vh;
+        }
+        #inputTask{
+            width: 200px;
+            padding: 20px 50px;
+            border: none;
+            background: hsl(300, 66%, 50%);
+            border-radius: 30px;
+        }
+        #addBtn{
+            padding: 20px 30px;
+            border: none;
+            background: hsl(180, 90%, 50%);
+            border-radius: 30px;
+            font-weight: bold;
+            margin-left: -40px;
+        }
+        
+        h3{
+            margin-left: 21%;
+            font-family: monospace, sans-serif;
+            font-weight: bold;
+        }
+        #tasks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:start;
+            list-style: none;
+            font-family: monospace, sans-serif;
+            font-weight: bold;
+            position: relative;
+        }
+        
+        #tasks li{
+            padding-top: 20px;
+            margin-left: 16%;
+        }
+        
+        .delete{
+            border: 2px solid gray;
+            border-radius: 20px;
+            background: hsl(10, 100%, 50%);
+            font-weight: bold;
+            padding: 5px 15px;
+            position: absolute;
+            right: 22%;
+        }
+   
 
 
